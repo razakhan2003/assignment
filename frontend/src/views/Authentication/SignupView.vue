@@ -15,11 +15,11 @@ const pageTitle = ref('Sign Up')
     <BreadcrumbDefault :pageTitle="pageTitle" />
     <!-- Breadcrumb End -->
 
-    <DefaultAuthCard subtitle="Start for free" title="Sign Up to TailAdmin">
+    <DefaultAuthCard subtitle="Start for free" title="Sign Up">
       <Form>
         <div>
           <label
-            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            class="block m-2 text-sm font-medium text-gray-900 dark:text-white"
             >Name</label
           >
           <input
@@ -31,7 +31,7 @@ const pageTitle = ref('Sign Up')
         </div>
         <div>
           <label
-            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            class="block m-2 text-sm font-medium text-gray-900 dark:text-white"
             >Email</label
           >
           <input
@@ -43,7 +43,7 @@ const pageTitle = ref('Sign Up')
         </div>
         <div>
           <label
-            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            class="block m-2 text-sm font-medium text-gray-900 dark:text-white"
             >Password</label
           >
           <input
