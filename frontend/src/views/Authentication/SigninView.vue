@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import DefaultAuthCard from '@/components/Auths/DefaultAuthCard.vue'
-import InputGroup from '@/components/Auths/InputGroup.vue'
 import BreadcrumbDefault from '@/components/Breadcrumbs/BreadcrumbDefault.vue'
 import DefaultLayout from '@/layouts/DefaultLayout.vue'
 
@@ -15,7 +14,7 @@ const pageTitle = ref('Sign In')
     <BreadcrumbDefault :pageTitle="pageTitle" />
     <!-- Breadcrumb End -->
 
-    <DefaultAuthCard subtitle="Start for free" title="Sign In to TailAdmin">
+    <DefaultAuthCard subtitle="Start for free" title="Sign In">
       <form>
         <div>
             <label  class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
