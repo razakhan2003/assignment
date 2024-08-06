@@ -5,13 +5,9 @@ import SignupView from '@/views/Authentication/SignupView.vue'
 import CalendarView from '@/views/CalendarView.vue'
 import BasicChartView from '@/views/Charts/BasicChartView.vue'
 import ECommerceView from '@/views/Dashboard/ECommerceView.vue'
-import FormElementsView from '@/views/Forms/FormElementsView.vue'
-import FormLayoutView from '@/views/Forms/FormLayoutView.vue'
 import SettingsView from '@/views/Pages/SettingsView.vue'
 import ProfileView from '@/views/ProfileView.vue'
 import TablesView from '@/views/TablesView.vue'
-import AlertsView from '@/views/UiElements/AlertsView.vue'
-import ButtonsView from '@/views/UiElements/ButtonsView.vue'
 
 const routes = [
   {
@@ -39,22 +35,6 @@ const routes = [
     }
   },
   {
-    path: '/forms/form-elements',
-    name: 'formElements',
-    component: FormElementsView,
-    meta: {
-      title: 'Form Elements'
-    }
-  },
-  {
-    path: '/forms/form-layout',
-    name: 'formLayout',
-    component: FormLayoutView,
-    meta: {
-      title: 'Form Layout'
-    }
-  },
-  {
     path: '/tables',
     name: 'tables',
     component: TablesView,
@@ -76,22 +56,6 @@ const routes = [
     component: BasicChartView,
     meta: {
       title: 'Basic Chart'
-    }
-  },
-  {
-    path: '/ui-elements/alerts',
-    name: 'alerts',
-    component: AlertsView,
-    meta: {
-      title: 'Alerts'
-    }
-  },
-  {
-    path: '/ui-elements/buttons',
-    name: 'buttons',
-    component: ButtonsView,
-    meta: {
-      title: 'Buttons'
     }
   },
   {
